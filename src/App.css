@@ -1,38 +1,77 @@
-.App {
+
+body {
+  margin: 50px;
+  font-family: Arial, sans-serif;
+ /*background: url("https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fthvnext.bing.com%2Fth%2Fid%2FOIP.5L4DzHgaZKZobN9hpf93fQHaE7%3Fr%3D0%26cb%3Ducfimg2%26pid%3DApi%26ucfimg%3D1&f=1&ipt=772fee92ea08eebbfdda7267d7b0827a849392c90f35006088df4239692e0eea&ipo=images")*/
+   /* no-repeat center center fixed;*/
+  background-size: cover;
+}
+
+
+.header {
+  background:#b5087e;
+  color: rgb(192, 231, 38);
   text-align: center;
+  padding: 15px;
+  font-weight: bold;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+
+.body-content {
+  min-height: 50vh;
+color: #b8b825;
+background: url(" https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fthf.bing.com%2Fth%2Fid%2FOIP.on9eb3n0FiZFH4hoSGh06gHaFY%3Fr%3D0%26cb%3Dthfc1%26pid%3DApi&f=1&ipt=2c2361b1084696ac0ec6799fea79c32936c55444e3dbef036a78320f8b24a0fd&ipo=images");
+  border-radius: 10px;
+  margin: 20px auto;
+  padding: 20px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+
+.ambulance-container{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-image: url("./images/ambulance.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.ambulance-card{
+    padding: 30px;
+    border-radius: 10px;
+    background: rgba(255,255,255,0.9);
+    width: 300px;
+    text-align: center;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
 }
 
-.App-link {
-  color: #61dafb;
+.ambulance-animation{
+    width: 120px;
+    position: absolute;
+    top: 110px;
+transform: translateeY(-50%);
+    animation: moveAmbulance 8s linear infinite;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+@keyframes moveAmbulance{
+
+    0%{
+        left: -150px;
+    }
+
+    100%{
+        left: 100%;
+    }
 }
+
+footer {
+  background: #84928b;
+  color: rgb(22, 19, 19);
+  text-align: center;
+  padding: 10px 20px;
+}
+
+

@@ -1,0 +1,21 @@
+/* Paragraph color in carousel captions */
+.carousel-text {
+  color: #f01557; /* light color for better visibility */
+  font-size: 18px;
+}
+
+/* Paragraph color in About section */
+.about-text {
+
+  color: #acf7f0e8; /* dark gray for readability */
+  font-size: 17px;
+  line-height: 1.6;
+
+}
+h2{
+color: rgb(204, 216, 30);
+}
+
+h3{
+    color:rgb(101, 21, 79);
+}
