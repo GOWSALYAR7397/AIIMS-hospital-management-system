@@ -1,6 +1,6 @@
 
 import React from "react";
-import { Card, Form, Button, Container } from "react-bootstrap";
+import { Card, Form, Button } from "react-bootstrap";
 
 function DoctorLogin() {
   const handleSubmit = (e) => {
