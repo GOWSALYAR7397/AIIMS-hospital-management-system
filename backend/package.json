@@ -11,7 +11,10 @@
   "license": "ISC",
   "description": "",
   "dependencies": {
+    "cors": "^2.8.6",
+    "dotenv": "^18.0.10",
     "express": "^5.1.0",
+    "mongoose": "^9.12.1",
     "node": "^24.9.0",
     "run": "^1.5.0"
   },
