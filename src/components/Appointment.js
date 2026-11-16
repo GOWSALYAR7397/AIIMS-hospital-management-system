@@ -22,11 +22,11 @@ function Appointment() {
   const fetchData = async () => {
     try {
       const patientResponse = await fetch(
-        "http://localhost:5000/api/patients"
+        "https://aiims-hospital-management-system.onrender.com/api/patients"
       );
 
       const doctorResponse = await fetch(
-        "http://localhost:5000/api/doctors"
+        "https://aiims-hospital-management-system.onrender.com/api/doctors"
       );
 
       if (!patientResponse.ok || !doctorResponse.ok) {
@@ -54,7 +54,7 @@ function Appointment() {
 
     try {
       const response = await fetch(
-        "http://localhost:5000/api/bookings",
+        "https://aiims-hospital-management-system.onrender.com/api/bookings",
         {
           method: "POST",
           headers: {

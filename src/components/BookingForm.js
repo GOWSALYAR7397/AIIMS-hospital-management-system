@@ -9,6 +9,7 @@ function BookingForm() {
     <div className="container my-3">
       <h2>Ambulance Booking</h2>
       {ambulance ? (
+      
         <div>
           <p><strong>Ambulance:</strong> {ambulance.name}</p>
           <p><strong>Contact:</strong> {ambulance.contact}</p>

@@ -15,7 +15,7 @@ function Doctors() {
   const [message, setMessage] = useState("");
   const [messageType, setMessageType] = useState("info");
 
-  const API = "http://localhost:5000/api/doctors";
+  const API = "https://aiims-hospital-management-system.onrender.com/api/doctors";
 
   // Fetch Doctors
   const fetchDoctors = async () => {

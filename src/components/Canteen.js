@@ -133,7 +133,7 @@ function Canteen() {
       };
 
       const response = await fetch(
-        "http://localhost:5000/api/canteen/orders",
+      "https://aiims-hospital-management-system.onrender.com/api/canteen/orders",
         {
           method: "POST",
           headers: {

@@ -23,7 +23,7 @@ function BloodbankForm() {
       };
 
       const res = await axios.post(
-        "http://localhost:5000/api/bloodbanks",
+        "https://aiims-hospital-management-system.onrender.com/api/bloodbanks",
         data
       );
 

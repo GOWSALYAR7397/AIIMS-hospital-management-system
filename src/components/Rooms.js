@@ -6,7 +6,7 @@ import deluxe from "../images/deluxe.jpg";
 import icu from "../images/icu.jpg";
 import vip from "../images/vip.jpg";
 
-const API_URL = "http://localhost:5000/api/rooms";
+const API_URL = "https://aiims-hospital-management-system.onrender.com/api/rooms";
 
 function Rooms() {
   const [roomData, setRoomData] = useState([]);

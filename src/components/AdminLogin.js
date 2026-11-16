@@ -22,7 +22,7 @@ function AdminLogin() {
       setLoading(true);
 
       const res = await axios.post(
-        "http://localhost:5000/api/users/login",
+        "https://aiims-hospital-management-system.onrender.com/api/users/login",
         {
           email: email.trim(),
           password: password,

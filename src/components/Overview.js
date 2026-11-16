@@ -32,9 +32,10 @@ function Overview() {
     const fetchDashboardData = async () => {
       try {
         const [patientRes, doctorRes, ambulanceRes] = await Promise.all([
-          fetch("http://localhost:5000/api/patients"),
-          fetch("http://localhost:5000/api/doctors"),
-          fetch("http://localhost:5000/api/ambulances"),
+          fetch("https://aiims-hospital-management-system.onrender.com/api/patients"),
+        fetch("https://aiims-hospital-management-system.onrender.com/api/doctors"),
+        fetch("https://aiims-hospital-management-system.onrender.com/api/ambulances"),
+          
         ]);
 
         if (!patientRes.ok || !doctorRes.ok || !ambulanceRes.ok) {

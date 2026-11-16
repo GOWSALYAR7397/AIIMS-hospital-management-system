@@ -24,7 +24,7 @@ function Home() {
     const fetchDoctors = async () => {
       try {
         const response = await axios.get(
-          "http://localhost:5000/api/doctors"
+          "https://aiims-hospital-management-system.onrender.com/api/doctors"
         );
 
         const doctorData = Array.isArray(response.data)

@@ -52,7 +52,7 @@ function Dashboard() {
 
         // PATIENTS
         const patientsResponse = await fetch(
-          "http://localhost:5000/api/patients"
+          "https://aiims-hospital-management-system.onrender.com/api/patients"
         );
 
         if (!patientsResponse.ok) {
@@ -65,7 +65,7 @@ function Dashboard() {
 
         // DOCTORS
         const doctorsResponse = await fetch(
-          "http://localhost:5000/api/doctors"
+          "https://aiims-hospital-management-system.onrender.com/api/doctors"
         );
 
         if (!doctorsResponse.ok) {
@@ -78,7 +78,7 @@ function Dashboard() {
 
         // AMBULANCES
         const ambulanceResponse = await fetch(
-          "http://localhost:5000/api/ambulances"
+          "https://aiims-hospital-management-system.onrender.com/api/ambulances"
         );
 
         if (!ambulanceResponse.ok) {
@@ -93,7 +93,7 @@ function Dashboard() {
 
         // BOOKINGS
         const bookingsResponse = await fetch(
-          "http://localhost:5000/api/bookings"
+          "https://aiims-hospital-management-system.onrender.com/api/bookings"
         );
 
         if (!bookingsResponse.ok) {

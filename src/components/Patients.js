@@ -1,7 +1,6 @@
 
 import React, { useState, useEffect } from "react";
-
-const API_URL = "http://localhost:5000/api/patients";
+const API_URL = "https://aiims-hospital-management-system.onrender.com/api/patients";
 
 function Patients() {
   const [patients, setPatients] = useState([]);

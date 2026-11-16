@@ -107,7 +107,7 @@ function Ambulance() {
     try {
 
       await axios.post(
-        "http://localhost:5000/api/ambulances",
+        "https://aiims-hospital-management-system.onrender.com/api/ambulances",
         data,
         {
           headers: {
